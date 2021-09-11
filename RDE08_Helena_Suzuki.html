@@ -7,8 +7,31 @@
     <title>Significado de tags</title>
 </head>
 <body>
+    <style>
+        h4{
+        color: #FF3399;
+        }
+        h1{
+            color: rgb(16, 197, 16);
+        }
+
+    </style>
     <p>
         A seguir, veremos a utilidade de algumas tags do html.
+    </p>
+
+    <h1>&ltblockquote&gt</h1>
+    <p>
+        A tag indica que o texto incluído é uma longa citação. Usualmente, é apresentado como um recuo no texto. A URL para a fonte da citação pode ser dada usando o <b>atributo <font color=#FF3399>cite</font></b>, enquanto uma representação de texto da fonte pode ser dada usando a tag  <b>&ltcite&gt</b> elemento.
+    </p>
+    <h4>Exemplo:</h4>
+    <p>
+        <img src="blockquote.PNG"><br>
+        O código implementado ficaria: 
+          <blockquote cite="http://developer.mozilla.org">
+            <p>Esta é uma citação tirada da
+            Mozilla Developer Center.</p>
+          </blockquote>
     </p>
     <h1>&ltq&gt</h1>
         <p>O elemento HTML &ltq&gt indica que o texto dentro da tag é uma pequena citação. Este elemento destina-se a citações curtas que não requerem marcações de parágrafo.</p>
@@ -60,10 +83,23 @@
         <img src="cite.PNG">
         <p>O resultado do código escrito acima seria: Mais informações podem ser encontradas em <cite>[ISO-0000]</cite>.</p>
 
-        <blockquote cite="http://developer.mozilla.org">
-            <p>Esta é uma citação tirada da
-            Mozilla Developer Center.</p>
-          </blockquote>
-    &lt &gt
+     <h1>&ltbdo&gt</h1>   
+     <p>O elemento HTML &ltbdo&gt (bidirectional override) é utilizado para substituir a direcionalidade atual do texto. Isso fará com que a direção do texto se torne aquela que foi especificada no código.</p>
+
+     <h4>Atributos</h4>
+     <b><font color=#FF3399>dir</font></b> indicará a direção do texto. Os seus valores possíveis são:<br>
+     <p>
+         <b>ltr: </b> com esse, o texto ficará da esquerda para a direita (Left-To-Right), como o usual.<br>
+         <b>rtl: </b> o texto ficará da direita para a esquerda (Right-To-Left).
+     </p>
+     <h4>Exemplo:</h4>
+     <img src="bdo.PNG">
+     <p>Código implementado:</p>
+     <p>
+            <p>Este texto ficará da esquerda para a direita.</p>
+            <p><bdo dir="rtl">Este texto ficará da direita para a esquerda.</bdo></p>
+
+     </p>
+    &lt&gt
 </body>
 </html>
