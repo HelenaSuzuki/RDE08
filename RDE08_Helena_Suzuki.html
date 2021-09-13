@@ -10,10 +10,25 @@
     <style>
         h4{
         color: #FF3399;
+        
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 700;
+        margin: 20px ;
         }
         h1{
             color: rgb(57, 58, 57);
+            font:  sans-serif;
+            margin: 20px ;
+            
         }
+        p {
+            font:  sans-serif;
+            margin: 20px ;
+            padding-right: 200px;
+        } 
+        img {
+            margin: 20px ;
+        }      
 
     </style>
     <p>
@@ -35,8 +50,18 @@
 
             <p><b>Código implementado:</b></p>
 
-            <ins>Esse texto foi adicionado.</ins>
+            <p><ins>Esse texto foi adicionado.</ins></p>
 
+    <h1>&ltsub&gt</h1>     
+            <p>Essa tag determina que o texto que esteja embutido nela fique subscrito ao restante. Nesse sentido, ele usualmente ficará numa linha de base um pouco mais baixa e com uma fonte menor. Ela pode ser utilizada para notas de rodapé, fórmulas químicas e subscritos de variávei.</p>   
+            
+            <h4>Exemplo:</h4>
+                    <img src="sub.PNG">
+                    <p><b>Código implementado:</b></p>
+                    <p>A fórmula molecular da glicose é C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>.</p>
+            
+    <h1>&ltsup&gt</h1>
+    
 
     <h1>&ltblockquote&gt</h1>
             <p>
@@ -83,12 +108,12 @@
             <address>
                 Voce pode contatar o autor em <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
                 Se encontrar qualquer bug, por favor <a href="mailto:webmaster@somedomain.com">contate o administrador do site</a>.<br>
-                Você tambem pode querer nos visitar:<br>
+               <p>Você tambem pode querer nos visitar:<br>
                 Mozilla Foundation<br>
                 1981 Landings Drive<br>
                 Building K<br>
                 Mountain View, CA 94043-0801<br>
-                USA
+                USA</p> 
               </address>
             <p>Além de sua função semântica, ele deixa o texto como se esse estivesse entre  &lti&gt.</p>
         </p>
@@ -105,7 +130,7 @@
      <p>O elemento HTML &ltbdo&gt (bidirectional override) é utilizado para substituir a direcionalidade atual do texto. Isso fará com que a direção do texto se torne aquela que foi especificada no código.</p>
 
      <h4>Atributos</h4>
-     <b><font color=#FF3399>dir</font></b> indicará a direção do texto. Os seus valores possíveis são:<br>
+     <p><b><font color=#FF3399>dir</font></b> indicará a direção do texto. Os seus valores possíveis são:</p>
      <p>
          <b>ltr: </b> com esse, o texto ficará da esquerda para a direita (Left-To-Right), como o usual.<br>
          <b>rtl: </b> o texto ficará da direita para a esquerda (Right-To-Left).
