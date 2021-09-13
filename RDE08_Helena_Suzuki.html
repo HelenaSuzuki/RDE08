@@ -9,31 +9,41 @@
 <body>
     <style>
         h4{
-        color: #FF3399;
+        color: #316ee0;
         
         font-family: "Segoe UI",Arial,sans-serif;
         font-weight: 700;
         margin: 20px ;
         }
         h1{
-            color: rgb(57, 58, 57);
-            font:  sans-serif;
+            
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight: 50px;
             margin: 20px ;
+            font-size:30px;
             
         }
         p {
             font:  sans-serif;
             margin: 20px ;
             padding-right: 200px;
+            margin-bottom: 5px;
         } 
         img {
             margin: 20px ;
         }      
+        h2{
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight: 200px;
+            font-size:35px;
+            margin: 20px ;
+        }
 
     </style>
     <p>
-        A seguir, veremos a utilidade de algumas tags do html.
+       <h2>Tags HTML</h2>
     </p>
+    <p>A seguir, veremos algumas tags importantes para o HTML.</p>
     <h1>&ltdel&gt</h1>
             <p>Representa uma parte do texto que foi excluída de um documento. Esse fragmento é, geralmente, renderizado pelos navegadores com uma linha "cortando" o texto.</p>
 
@@ -53,7 +63,7 @@
             <p><ins>Esse texto foi adicionado.</ins></p>
 
     <h1>&ltsub&gt</h1>     
-            <p>Essa tag determina que o texto que esteja embutido nela fique subscrito ao restante. Nesse sentido, ele usualmente ficará numa linha de base um pouco mais baixa e com uma fonte menor. Ela pode ser utilizada para notas de rodapé, fórmulas químicas e subscritos de variávei.</p>   
+            <p>Essa tag determina que o texto que esteja embutido nela fique subscrito ao restante. Nesse sentido, ele usualmente ficará numa linha de base um pouco mais baixa e com uma fonte menor. Ela pode ser utilizada para notas de rodapé, fórmulas químicas e subscritos de variável.</p>   
             
             <h4>Exemplo:</h4>
                     <img src="sub.PNG">
@@ -61,11 +71,13 @@
                     <p>A fórmula molecular da glicose é C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>.</p>
             
     <h1>&ltsup&gt</h1>
-    
+            <p>Ao utilizar essa tag, o texto embutido nela ficará sobrescrito ao restante. Sendo assim, ele geralmente aparecerá em uma linha de base um pouco acima e com uma fonte menor. Essa tag é comemunte utilizada para números expoentes, mas também poder ser usada para letras.
+            </p>
 
+            <h4>Exemplo:</h4>
     <h1>&ltblockquote&gt</h1>
             <p>
-                A tag indica que o texto incluído é uma longa citação. Usualmente, é apresentado como um recuo no texto. A URL para a fonte da citação pode ser dada usando o <b>atributo <font color=#FF3399>cite</font></b>, enquanto uma representação de texto da fonte pode ser dada usando a tag  <b>&ltcite&gt</b> elemento.
+                A tag indica que o texto incluído é uma longa citação. Usualmente, é apresentado como um recuo no texto. A URL para a fonte da citação pode ser dada usando o <b>atributo <font color=darkred>cite</font></b>, enquanto uma representação de texto da fonte pode ser dada usando a tag  <b>&ltcite&gt</b> elemento.
             </p>
             <h4>Exemplo:</h4>
                     <p>
@@ -80,7 +92,7 @@
             <p>O elemento HTML &ltq&gt indica que o texto dentro da tag é uma pequena citação. Este elemento destina-se a citações curtas que não requerem marcações de parágrafo.</p>
             <h4>Atributos</h4>
                     <p>
-                        Além de incluir os atributos globais, ele possui o <b><font color=#FF3399>cite</font></b>, que tem como valor um URL, o qual encaminhará para a fonte da informação citada.
+                        Além de incluir os atributos globais, ele possui o <b><font color=darkred>cite</font></b>, que tem como valor um URL, o qual encaminhará para a fonte da informação citada.
                     </p>
             <h4>Exemplo:</h4>
                     <img src="q.PNG" >
@@ -89,7 +101,7 @@
 
     <h1>&ltabbr&gt</h1>        
             <p>
-                Essa tag irá representar uma abreviação e opcionalmente fornece uma descrição completa para ela. Se presente, o <b>atributo <font color=#FF3399>title</font></b> deve conter a descrição completa.
+                Essa tag irá representar uma abreviação e opcionalmente fornece uma descrição completa para ela. Se presente, o <b>atributo <font color=darkred>title</font></b> deve conter a descrição completa.
             </p>
             <p>
 
@@ -130,7 +142,7 @@
      <p>O elemento HTML &ltbdo&gt (bidirectional override) é utilizado para substituir a direcionalidade atual do texto. Isso fará com que a direção do texto se torne aquela que foi especificada no código.</p>
 
      <h4>Atributos</h4>
-     <p><b><font color=#FF3399>dir</font></b> indicará a direção do texto. Os seus valores possíveis são:</p>
+     <p><b><font color=darkred>dir</font></b> indicará a direção do texto. Os seus valores possíveis são:</p>
      <p>
          <b>ltr: </b> com esse, o texto ficará da esquerda para a direita (Left-To-Right), como o usual.<br>
          <b>rtl: </b> o texto ficará da direita para a esquerda (Right-To-Left).
